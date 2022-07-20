@@ -1,0 +1,23 @@
+
+
+
+.head{
+    width: 100%;
+    text-align: left;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#instructions{
+    float: right;
+    border: 3px solid white;
+}
+
+#footer{
+    position: fixed;
+    line-height: 30px;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    bottom:0;
+}
