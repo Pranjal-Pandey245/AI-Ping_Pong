@@ -1,29 +1,41 @@
 
-
-
-.head{
-    width: 100%;
-    text-align: left;
-    font-size: 23px;
-    padding: 10px;
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h3{
+    display: inline;
 }
 
-#instructions{
+.heading button{
     float: right;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
-#footer{
-    position: fixed;
-    line-height: 30px;
-    width: 100%;
-    background-color: white;
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
     font-size: 20px;
-    bottom:0;
 }
-
-canvas{
-    border: 5px 5px solid black;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
